@@ -26,7 +26,7 @@
 ### Результат:   
 1. Распределение CTR в группе 1 похоже на нормальное, а в группе 2 - нет. Так как одно из ключевых предположений t-теста - это нормальность распределения, а мы видим, что это условие не выполняется, то рекомендуется использовать непараметрические методы или методы, устойчивые к нарушениям нормальности, чтобы получить более надежные результаты.  
 
-<image src="/AB-Test-CTR-distribution.jpeg" alt="CTR distribution"> <image src="/AB-Test-CTR-Smoothed-distribution.jpeg" alt="Smoothed CTR distribution">  
+<image src="/images/AB-Test-CTR-distribution.jpeg" alt="CTR distribution"> <image src="/images/AB-Test-CTR-Smoothed-distribution.jpeg" alt="Smoothed CTR distribution">  
 
     t-test и t-test на сглаженном CTR не опровергают нулевую гипотезу и не видят разницу между средним CTR (p-value > 0.05).  
     Это ошибка, которая обусловлена ненормальным распределением CTR группы 2.
